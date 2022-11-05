@@ -1,0 +1,67 @@
+ec jmp rgb:f9e2af
+ec creg rgb:fab387
+ec b0x00 rgb:7f849c
+#~gui.background rgb:ff1e1e2e
+ec b0x7f rgb:6c7086
+#~gui.imports rgb:ff89b4fa
+ec trap rgb:eba0ac
+#~gui.alt_background rgb:ff1e1e2e
+ec func_var_addr rgb:eba0ac
+#~gui.navbar.seek rgb:ffeba0ac
+ec input rgb:7f849c
+ec b0xff rgb:a6adc8
+ec num rgb:eba0ac
+ec btext rgb:74c7ec
+ec gui.cflow rgb:f9e2af
+#~gui.overview.node rgb:ff45475a
+ec flag rgb:74c7ec
+ec cjmp rgb:f9e2af
+#~gui.navbar.err rgb:ff74c7ec
+ec func_var rgb:94e2d5
+ec swi rgb:eba0ac
+#~wordHighlight rgb:ff313244
+ec offset rgb:fab387
+ec bin rgb:74c7ec
+#~lineHighlight rgb:ff585b70
+ec crypto rgb:89b4fa
+ec help rgb:f9e2af
+ec pop rgb:74c7ec
+ec diff.unknown rgb:cba6f7
+ec mov rgb:bac2de
+#~highlightPC rgb:ff571a07
+ec floc rgb:89b4fa
+ec diff.unmatch rgb:f9e2af
+#~gui.navbar.sym rgb:fffab387
+#~gui.main rgb:ffa6e3a1
+ec graph.false rgb:f38ba8
+#~gui.navbar.code rgb:ffa6e3a1
+ec cmp rgb:74c7ec
+#~angui.navbar.str rgb:ff000000
+ec flow2 rgb:bac2de
+#~gui.navbar.pc rgb:ff94e2d5
+ec comment rgb:94e2d5
+ec graph.ujump rgb:89dceb
+ec push rgb:74c7ec
+ec ujmp rgb:f9e2af
+#~gui.breakpoint_background rgb:fff38ba8
+#~gui.border rgb:fff38ba8
+ec flow rgb:f9e2af
+ec reg rgb:bac2de
+ec ucall rgb:74c7ec
+ec usrcmt rgb:fab387
+ec func_var_type rgb:fab387
+#~gui.disass_selected rgb:ff1e1e2e
+ec fname rgb:fab387
+ec nop rgb:a37acc
+ec diff.new rgb:f38ba8
+ec ret rgb:eba0ac
+ec other rgb:7f849c
+#~gui.overview.border rgb:3289dceb
+#~gui.dataoffset rgb:ffffffff
+#~gui.navbar.empty rgb:ff45475a
+ec graph.true rgb:a6e3a1
+ec fline rgb:89dceb
+#~gui.overview.fill rgb:28ffffff
+ec diff.match rgb:7f849c
+ec math rgb:74c7ec
+ec call rgb:fab387
