@@ -44,7 +44,7 @@ ec graph.ujump rgb:04a5e5
 ec push rgb:209fb5
 ec ujmp rgb:df8e1d
 #~gui.breakpoint_background rgb:ffd20f39
-#~gui.border rgb:ffd20f39
+#~gui.border rgb:ffacb0be
 ec flow rgb:df8e1d
 ec reg rgb:5c5f77
 ec ucall rgb:209fb5
