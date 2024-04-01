@@ -1,0 +1,75 @@
+---
+whiskers:
+  version: 2.0.0
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}"
+---
+{%- set palette = flavor.colors -%}
+ec jmp rgb:{{ palette.yellow.hex }}
+ec creg rgb:{{ palette.peach.hex }}
+ec b0x00 rgb:{{ palette.overlay1.hex }}
+#~gui.background rgb:ff{{ palette.base.hex }}
+ec b0x7f rgb:{{ palette.overlay0.hex }}
+#~gui.imports rgb:ff{{ palette.blue.hex }}
+ec trap rgb:{{ palette.maroon.hex }}
+#~gui.alt_background rgb:ff{{ palette.base.hex }}
+ec func_var_addr rgb:{{ palette.maroon.hex }}
+#~gui.navbar.seek rgb:ff{{ palette.maroon.hex }}
+ec input rgb:{{ palette.overlay1.hex }}
+ec b0xff rgb:{{ palette.subtext0.hex }}
+ec num rgb:{{ palette.maroon.hex }}
+ec btext rgb:{{ palette.sapphire.hex }}
+ec gui.cflow rgb:{{ palette.yellow.hex }}
+#~gui.overview.node rgb:ff{{ palette.surface1.hex }}
+ec flag rgb:{{ palette.sapphire.hex }}
+ec cjmp rgb:{{ palette.yellow.hex }}
+#~gui.navbar.err rgb:ff{{ palette.sapphire.hex }}
+ec func_var rgb:{{ palette.teal.hex }}
+ec swi rgb:{{ palette.maroon.hex }}
+#~wordHighlight rgb:ff{{ palette.surface0.hex }}
+ec offset rgb:{{ palette.peach.hex }}
+ec bin rgb:{{ palette.sapphire.hex }}
+#~lineHighlight rgb:ff{{ palette.surface2.hex }}
+ec crypto rgb:{{ palette.blue.hex }}
+ec help rgb:{{ palette.yellow.hex }}
+ec pop rgb:{{ palette.sapphire.hex }}
+ec diff.unknown rgb:{{ palette.mauve.hex }}
+ec mov rgb:{{ palette.subtext1.hex }}
+#~highlightPC rgb:ff{{ palette.peach.hex }}
+ec floc rgb:{{ palette.blue.hex }}
+ec diff.unmatch rgb:{{ palette.yellow.hex }}
+#~gui.navbar.sym rgb:ff{{ palette.peach.hex }}
+#~gui.main rgb:ff{{ palette.green.hex }}
+ec graph.false rgb:{{ palette.red.hex }}
+#~gui.navbar.code rgb:ff{{ palette.green.hex }}
+ec cmp rgb:{{ palette.sapphire.hex }}
+#~angui.navbar.str rgb:#ff000000
+ec flow2 rgb:{{ palette.subtext1.hex }}
+#~gui.navbar.pc rgb:ff{{ palette.teal.hex }}
+ec comment rgb:{{ palette.teal.hex }}
+ec graph.ujump rgb:{{ palette.sky.hex }}
+ec push rgb:{{ palette.sapphire.hex }}
+ec ujmp rgb:{{ palette.yellow.hex }}
+#~gui.breakpoint_background rgb:ff{{ palette.red.hex }}
+#~gui.border rgb:ff{{ palette.surface2.hex }}
+ec flow rgb:{{ palette.yellow.hex }}
+ec reg rgb:{{ palette.subtext1.hex }}
+ec ucall rgb:{{ palette.sapphire.hex }}
+ec usrcmt rgb:{{ palette.peach.hex }}
+ec func_var_type rgb:{{ palette.peach.hex }}
+#~gui.disass_selected rgb:ff{{ palette.base.hex }}
+ec fname rgb:{{ palette.peach.hex }}
+ec nop rgb:{{ palette.mauve.hex }}
+ec diff.new rgb:{{ palette.red.hex }}
+ec ret rgb:{{ palette.maroon.hex }}
+ec other rgb:{{ palette.overlay1.hex }}
+#~gui.overview.border rgb:ff{{ palette.blue.hex }}
+#~gui.dataoffset rgb:#ffffff
+#~gui.navbar.empty rgb:ff{{ palette.surface1.hex }}
+ec graph.true rgb:{{ palette.green.hex }}
+ec fline rgb:{{ palette.sky.hex }}
+#~gui.overview.fill rgb:ff{{ palette.teal.hex }}
+ec diff.match rgb:{{ palette.overlay1.hex }}
+ec math rgb:{{ palette.sapphire.hex }}
+ec call rgb:{{ palette.peach.hex }}
