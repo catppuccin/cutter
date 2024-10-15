@@ -44,7 +44,7 @@ ec diff.unmatch rgb:{{ palette.yellow.hex }}
 ec graph.false rgb:{{ palette.red.hex }}
 #~gui.navbar.code rgb:ff{{ palette.green.hex }}
 ec cmp rgb:{{ palette.sapphire.hex }}
-#~angui.navbar.str rgb:#ff000000
+#~angui.navbar.str rgb:ff000000
 ec flow2 rgb:{{ palette.subtext1.hex }}
 #~gui.navbar.pc rgb:ff{{ palette.teal.hex }}
 ec comment rgb:{{ palette.teal.hex }}
@@ -65,7 +65,7 @@ ec diff.new rgb:{{ palette.red.hex }}
 ec ret rgb:{{ palette.maroon.hex }}
 ec other rgb:{{ palette.overlay1.hex }}
 #~gui.overview.border rgb:ff{{ palette.blue.hex }}
-#~gui.dataoffset rgb:#ffffff
+#~gui.dataoffset rgb:ffffffff
 #~gui.navbar.empty rgb:ff{{ palette.surface1.hex }}
 ec graph.true rgb:{{ palette.green.hex }}
 ec fline rgb:{{ palette.sky.hex }}

@@ -36,7 +36,7 @@ ec diff.unmatch rgb:eed49f
 ec graph.false rgb:ed8796
 #~gui.navbar.code rgb:ffa6da95
 ec cmp rgb:7dc4e4
-#~angui.navbar.str rgb:#000000
+#~angui.navbar.str rgb:ff000000
 ec flow2 rgb:b8c0e0
 #~gui.navbar.pc rgb:ff8bd5ca
 ec comment rgb:8bd5ca
@@ -57,7 +57,7 @@ ec diff.new rgb:ed8796
 ec ret rgb:ee99a0
 ec other rgb:8087a2
 #~gui.overview.border rgb:ff8aadf4
-#~gui.dataoffset rgb:#ffffff
+#~gui.dataoffset rgb:ffffffff
 #~gui.navbar.empty rgb:ff494d64
 ec graph.true rgb:a6da95
 ec fline rgb:91d7e3
